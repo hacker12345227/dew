@@ -39,20 +39,20 @@ const logoSrc = basePath + "assets/images/ehlogo.png";
 const navbarMarkup = `
   <section class="promo-bar">
     <div class="promo-track">
-      <div class="promo-items">
-        <span>🌙 Ramadan Mubarak!</span>
-        <span>⭐ Exclusieve Ramadan Pakketten</span>
-        <span>🎁 Speciale Ramadan Rewards</span>
-        <span>💫 Community Iftar Events</span>
-        <span>🕌 Ramadan Thema Actief</span>
-      </div>
-      <div class="promo-items">
-        <span>🌙 Ramadan Mubarak!</span>
-        <span>⭐ Exclusieve Ramadan Pakketten</span>
-        <span>🎁 Speciale Ramadan Rewards</span>
-        <span>💫 Community Iftar Events</span>
-        <span>🕌 Ramadan Thema Actief</span>
-      </div>
+<div class="promo-items">
+  <span class="promo-item">🚀 TITAN ROLEPLAY IS NU OPEN!</span>
+  <span class="promo-item">🔥 NIEUWE SERVER • NIEUWE START</span>
+  <span class="promo-item">🎁 GRATIS START BONUSSEN</span>
+  <span class="promo-item">💎 PREMIUM RP ERVARING</span>
+  <span class="promo-item">👑 WORD EEN VAN DE EERSTE SPELERS</span>
+</div>
+<div class="promo-items">
+  <span class="promo-item">🚀 TITAN ROLEPLAY IS NU OPEN!</span>
+  <span class="promo-item">🔥 NIEUWE SERVER • NIEUWE START</span>
+  <span class="promo-item">🎁 GRATIS START BONUSSEN</span>
+  <span class="promo-item">💎 PREMIUM RP ERVARING</span>
+  <span class="promo-item">👑 WORD EEN VAN DE EERSTE SPELERS</span>
+</div>
     </div>
   </section>
 
