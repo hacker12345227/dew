@@ -4,7 +4,7 @@ const isRulesPage = pathLower.includes("regels.html") || pathLower === "/apv";
 const isSolliciterenPage = pathLower.includes("solliciteren.html") || pathLower.includes("staff-sollicitatie.html") || pathLower === "/solliciteren" || pathLower.startsWith("/solliciteren/");
 const isHomePage = !isRulesPage && !isSolliciterenPage;
 const basePath = isSubPage ? "../" : "";
-const homeAnchor = "/home";
+const homeAnchor = "/";
 const donateAnchor = "https://eindhoven.tebex.io/";
 const applyAnchor = "/solliciteren";
 const logoSrc = basePath + "assets/images/ehlogo.png";
