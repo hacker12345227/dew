@@ -1,14 +1,14 @@
 :root {
   color-scheme: dark;
-  --primary: #d4af37;        /* goud */
-  --primary-dark: #b8972e;   /* donker goud */
+  --primary: #c9a227;        /* diep goud */
+  --primary-dark: #9f7f1f;   /* donkerder goud */
   --bg: #000000;             /* diep zwart */
-  --surface: rgba(20, 20, 20, 0.75);
-  --surface-soft: rgba(20, 20, 20, 0.5);
-  --text: #f5f5f5;           /* licht wit/grijs voor contrast */
-  --muted: #c2b280;          /* zacht goud/grijs */
-  --border: rgba(212, 175, 55, 0.15);
-  --shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+  --surface: rgba(18, 18, 18, 0.8);
+  --surface-soft: rgba(18, 18, 18, 0.55);
+  --text: #f2f2f2;
+  --muted: #bfa76a;          /* subtiel warm goud */
+  --border: rgba(201, 162, 39, 0.18);
+  --shadow: 0 30px 60px rgba(0, 0, 0, 0.65);
 }
 
 * {
