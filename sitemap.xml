@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://www.titanroleplay.nl/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Regels / APV -->
+  <url>
+    <loc>https://www.titanroleplay.nl/apv</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Solliciteren -->
+  <url>
+    <loc>https://www.titanroleplay.nl/solliciteren</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Staff sollicitatie -->
+  <url>
+    <loc>https://www.titanroleplay.nl/solliciteren/staff</loc>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
