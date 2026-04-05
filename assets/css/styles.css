@@ -2310,7 +2310,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-card-btn-discord {
-  background: linear-gradient(135deg, rgba(245, 196, 82, 0.85), rgba(71, 82, 196, 0.8));
+  background: linear-gradient(135deg, rgba(245, 196, 82, 0.85), rgba(245, 196, 82, 0.85));
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 24px rgba(245, 196, 82, 0.25);
