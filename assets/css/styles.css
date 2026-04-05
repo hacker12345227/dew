@@ -35,11 +35,11 @@ body {
 }
 
 body.rules-page {
-  background: #0d1822;
+  background: #0f0c08;
 }
 
 body.solliciteren-page {
-  background: #0d1822;
+  background: #0f0c08;
 }
 
 
@@ -99,7 +99,7 @@ body:not(.home-page):not(.rules-page):not(.solliciteren-page) .site-header {
   left: 0;
   right: 0;
   z-index: 51;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: linear-gradient(135deg, #1c1408 0%, #2a1f0f 50%, #3d2a12 100%);
   border-bottom: 1px solid rgba(255, 215, 0, 0.2);
   overflow: hidden;
   height: 40px;
@@ -404,7 +404,7 @@ body.solliciteren-page .promo-bar {
   margin-top: 0;
   padding: 100px 20px 60px;
   overflow: hidden;
-  background: #0a0e14;
+  background: #0f0c08;
   contain: layout style;
 }
 
@@ -586,17 +586,17 @@ body.solliciteren-page .promo-bar {
 .button.primary {
   background: linear-gradient(
     135deg,
-    rgba(125, 235, 243, 0.55),
+    rgba(255, 215, 0, 0.55),
     rgba(70, 201, 213, 0.45)
   );
   color: #ffffff;
-  border: 1px solid rgba(125, 235, 243, 0.3);
+  border: 1px solid rgba(255, 215, 0, 0.3);
   box-shadow: 0 14px 26px rgba(255, 215, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(6px);
 }
 
 .button.ghost {
-  border-color: rgba(125, 235, 243, 0.55);
+  border-color: rgba(255, 215, 0, 0.55);
   color: var(--text);
   background: rgba(10, 19, 26, 0.55);
   backdrop-filter: blur(12px);
@@ -623,7 +623,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .button.ghost:hover {
-  border-color: rgba(125, 235, 243, 0.85);
+  border-color: rgba(255, 215, 0, 0.85);
   box-shadow: 0 18px 32px rgba(0, 0, 0, 0.35), 0 0 18px rgba(255, 215, 0, 0.2);
 }
 
@@ -647,7 +647,7 @@ body.solliciteren-page .promo-bar {
   padding: 12px 24px;
   border-radius: 999px;
   background: rgba(10, 19, 26, 0.55);
-  border: 1px solid rgba(125, 235, 243, 0.35);
+  border: 1px solid rgba(255, 215, 0, 0.35);
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.28), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease,
@@ -666,7 +666,7 @@ body.solliciteren-page .promo-bar {
 
 .hero-online:hover {
   transform: translateY(-3px);
-  border-color: rgba(125, 235, 243, 0.6);
+  border-color: rgba(255, 215, 0, 0.6);
   background: rgba(14, 26, 34, 0.68);
   box-shadow: 0 20px 36px rgba(0, 0, 0, 0.38), 0 0 18px rgba(255, 215, 0, 0.18);
 }
@@ -767,7 +767,7 @@ body.solliciteren-page .promo-bar {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(180deg, #0a0e14 0%, #0f1419 100%);
+  background: linear-gradient(180deg, #0f0c08 0%, #0f0c08 100%);
 }
 
 .rules-hero::before {
@@ -892,7 +892,7 @@ body.solliciteren-page .promo-bar {
 
 .rules-penalties {
   padding: 120px 24px 110px;
-  background: linear-gradient(180deg, #0f1419 0%, #0a0e14 100%);
+  background: linear-gradient(180deg, #0f0c08 0%, #0f0c08 100%);
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -911,7 +911,7 @@ body.solliciteren-page .promo-bar {
 /* Penalties Section */
 .rules-penalties {
   padding: 100px 24px 120px;
-  background: linear-gradient(180deg, #0a0e14 0%, #0f1419 50%, #0a0e14 100%);
+  background: linear-gradient(180deg, #0f0c08 0%, #0f0c08 50%, #0f0c08 100%);
   position: relative;
 }
 
@@ -1064,7 +1064,7 @@ body.solliciteren-page .promo-bar {
 /* Articles Section */
 .rules-articles {
   padding: 100px 24px 120px;
-  background: linear-gradient(180deg, #0a0e14 0%, #0f1419 50%, #0a0e14 100%);
+  background: linear-gradient(180deg, #0f0c08 0%, #0f0c08 50%, #0f0c08 100%);
   position: relative;
 }
 
@@ -2048,7 +2048,7 @@ body.solliciteren-page .promo-bar {
   padding: 160px 24px 80px;
   text-align: center;
   overflow: hidden;
-  background: linear-gradient(180deg, #0a0e14 0%, #0f1822 100%);
+  background: linear-gradient(180deg, #0f0c08 0%, #0f1822 100%);
 }
 
 .sol-hero-compact {
@@ -2253,7 +2253,7 @@ body.solliciteren-page .promo-bar {
   letter-spacing: 0.8px;
   text-transform: uppercase;
   background: rgba(34, 197, 94, 0.12);
-  color: #4ade80;
+  color: #f5c452;
   border: 1px solid rgba(34, 197, 94, 0.25);
   margin-bottom: 14px;
 }
@@ -2326,24 +2326,24 @@ body.solliciteren-page .promo-bar {
 .sol-card-staff:hover { border-color: rgba(255, 215, 0, 0.35); }
 .sol-card-staff::before { background: linear-gradient(90deg, transparent, #f5c452, transparent); }
 
-.sol-card-politie { border-color: rgba(59, 130, 246, 0.12); }
-.sol-card-politie:hover { border-color: rgba(59, 130, 246, 0.3); }
+.sol-card-politie { border-color: rgba(245, 196, 82, 0.12); }
+.sol-card-politie:hover { border-color: rgba(245, 196, 82, 0.3); }
 .sol-card-politie::before { background: linear-gradient(90deg, transparent, #f5c452, transparent); }
 .sol-card-politie .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(245, 196, 82, 0.06) 0%, transparent 70%);
 }
 .sol-card-politie:hover .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(245, 196, 82, 0.12) 0%, transparent 70%);
 }
 
-.sol-card-defensie { border-color: rgba(59, 130, 246, 0.12); }
-.sol-card-defensie:hover { border-color: rgba(59, 130, 246, 0.3); }
+.sol-card-defensie { border-color: rgba(245, 196, 82, 0.12); }
+.sol-card-defensie:hover { border-color: rgba(245, 196, 82, 0.3); }
 .sol-card-defensie::before { background: linear-gradient(90deg, transparent, #f5c452, transparent); }
 .sol-card-defensie .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(245, 196, 82, 0.06) 0%, transparent 70%);
 }
 .sol-card-defensie:hover .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(245, 196, 82, 0.12) 0%, transparent 70%);
 }
 
 .sol-card-ambulance { border-color: rgba(234, 179, 8, 0.12); }
@@ -2516,7 +2516,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-route-icon--discord svg {
-  color: #8b9aff;
+  color: #f5c452;
 }
 
 .sol-route-tag {
@@ -2530,7 +2530,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-route-tag--discord {
-  color: #8b9aff;
+  color: #f5c452;
 }
 
 .sol-route-head h3 {
@@ -2614,7 +2614,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-step-marker--discord span {
-  color: #8b9aff;
+  color: #f5c452;
 }
 
 .sol-step-content h4 {
@@ -2696,7 +2696,7 @@ body.solliciteren-page .promo-bar {
   background:
     radial-gradient(ellipse at 30% 0%, rgba(255, 215, 0, 0.05) 0%, transparent 50%),
     radial-gradient(ellipse at 70% 100%, rgba(245, 196, 82, 0.04) 0%, transparent 50%),
-    linear-gradient(180deg, #0a0e14 0%, #0d1822 100%);
+    linear-gradient(180deg, #0f0c08 0%, #0f0c08 100%);
   position: relative;
   overflow: hidden;
 }
@@ -3095,7 +3095,7 @@ body.solliciteren-page .promo-bar {
 .sf-message-success {
   background: rgba(34, 197, 94, 0.08);
   border: 1px solid rgba(34, 197, 94, 0.15);
-  color: #4ade80;
+  color: #f5c452;
 }
 
 .sf-message-error {
