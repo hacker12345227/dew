@@ -660,7 +660,7 @@ body.solliciteren-page .promo-bar {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, #7ff3ff, #d4a017 70%);
+  background: radial-gradient(circle at 30% 30%, #d4a017, #d4a017 70%);
   box-shadow: 0 0 12px rgba(255, 215, 0, 0.55);
 }
 
