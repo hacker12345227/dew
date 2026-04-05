@@ -587,7 +587,7 @@ body.solliciteren-page .promo-bar {
   background: linear-gradient(
     135deg,
     rgba(255, 215, 0, 0.55),
-    rgba(70, 201, 213, 0.45)
+    rgba(255, 215, 0, 0.55)
   );
   color: #ffffff;
   border: 1px solid rgba(255, 215, 0, 0.3);
@@ -2882,7 +2882,7 @@ body.solliciteren-page .promo-bar {
   border: 1px solid rgba(245, 196, 82, 0.18);
   font-size: 0.78rem;
   font-weight: 600;
-  color: #8b92ff;
+  color: #f5c4522e;
   text-decoration: none;
   transition: background 0.25s, border-color 0.25s, transform 0.15s;
 }
