@@ -607,8 +607,8 @@ body.solliciteren-page .promo-bar {
   border-color: rgba(255, 255, 255, 0.2);
   background: linear-gradient(
     135deg,
-    rgba(72, 198, 214, 0.28),
-    rgba(14, 23, 30, 0.9)
+    rgba(255, 215, 0, 0.55),
+    rgba(255, 215, 0, 0.55)
   );
   color: #eefcfe;
   font-weight: 700;
