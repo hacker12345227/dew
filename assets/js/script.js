@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ── Player count ──
 (function () {
   const API_URL =
-    "https://servers-frontend.fivem.net/api/servers/single/6mym45j";
+    "https://servers-frontend.fivem.net/api/servers/single/bok8bd";
 
   async function update() {
     try {
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const data = await res.json();
       const online = data?.Data?.clients ?? 0;
-      const max = data?.Data?.sv_maxclients ?? 128;
+      const max = data?.Data?.sv_maxclients ?? 512;
 
       document.querySelectorAll(".online-count").forEach((el) => {
         el.textContent = `${online}/${max}`;
