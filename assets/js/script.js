@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ── Player count ──
 (function () {
   const API_URL =
-    "https://servers-frontend.fivem.net/api/servers/single/bok8bd";
+    "https://servers-frontend.fivem.net/api/servers/single/6mym45j";
 
   async function update() {
     try {
