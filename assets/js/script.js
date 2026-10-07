@@ -13,6 +13,10 @@ const isRulesPage =
   path.endsWith("/apv") ||
   path.includes("regels.html");
 
+const isShopPage =
+  path === "/pakketten" ||
+  path.startsWith("/pakketten");
+
 const isSolliciterenPage =
   path === "/solliciteren" ||
   path.startsWith("/solliciteren") ||
@@ -23,6 +27,7 @@ const isSolliciterenPage =
 const isSubPage =
   path.includes("/pages/") ||
   isRulesPage ||
+  isShopPage ||
   isSolliciterenPage;
 
 // ── Paths ──
@@ -66,6 +71,7 @@ const navbarMarkup = `
       <div class="nav-links">
         <a class="${isHomePage ? "active" : ""}" href="${homeAnchor}">Home</a>
         <a class="${isRulesPage ? "active" : ""}" href="${regelsHref}">APV</a>
+        <a class="${isShopPage ? "active" : ""}" href="${basePath}pakketten">Auto's &amp; Pakketten</a>
         <a href="${donateAnchor}" target="_blank">Doneren</a>
         <a class="${isSolliciterenPage ? "active" : ""}" href="${applyAnchor}">Solliciteren</a>
         <a href="https://www.discord.gg/titanroleplay" target="_blank">Discord</a>
