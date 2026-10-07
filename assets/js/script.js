@@ -73,7 +73,7 @@ const navbarMarkup = `
         <a class="${isRulesPage ? "active" : ""}" href="${regelsHref}">APV</a>
         <a class="${isShopPage ? "active" : ""}" href="${basePath}pakketten">Auto's &amp; Pakketten</a>
         <a class="${isSolliciterenPage ? "active" : ""}" href="${applyAnchor}">Solliciteren</a>
-        <a href="https://www.discord.gg/titanroleplay" target="_blank">Discord</a>
+        <a href="https://discord.gg/uMDE3fhtAe" target="_blank">Discord</a>
       </div>
 
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
