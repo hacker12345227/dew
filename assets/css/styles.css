@@ -1,16 +1,16 @@
 :root {
   color-scheme: dark;
-  --primary: #ffa700;           /* Hoofd goud - fel & luxe */
-  --primary-dark: #d4a017;      /* Donker goud voor diepte */
-  --accent: #ffd700;            /* Extra fel accent goud */
+  --primary: #ff5e00;           /* Hoofd goud - fel & luxe */
+  --primary-dark: #dd610e;      /* Donker goud voor diepte */
+  --accent: #ff7400;            /* Extra fel accent goud */
   --bg: #0f0c08;                /* Diepe donkere goud-ondergrond */
-  --surface: rgba(45, 35, 20, 0.78);     /* Goud-getinte surface */
-  --surface-soft: rgba(45, 35, 20, 0.55);
-  --text: #fff9e6;              /* Warm ivoor-wit voor tekst */
-  --muted: #d4b88a;             /* Gouden muted tekst */
-  --border: rgba(245, 196, 82, 0.18);    /* Gouden randjes */
+  --surface: rgba(47, 28, 18, 0.78);     /* Goud-getinte surface */
+  --surface-soft: rgba(47, 28, 18, 0.55);
+  --text: #fff0e6;              /* Warm ivoor-wit voor tekst */
+  --muted: #d9a385;             /* Gouden muted tekst */
+  --border: rgba(253, 144, 74, 0.18);    /* Gouden randjes */
   --shadow: 0 30px 60px rgba(0, 0, 0, 0.68);
-  --gold-glow: rgba(245, 196, 82, 0.45); /* Extra glow voor luxe */
+  --gold-glow: rgba(253, 144, 74, 0.45); /* Extra glow voor luxe */
 }
 
 * {
@@ -99,8 +99,8 @@ body:not(.home-page):not(.rules-page):not(.solliciteren-page) .site-header {
   left: 0;
   right: 0;
   z-index: 51;
-  background: linear-gradient(135deg, #1c1408 0%, #2a1f0f 50%, #3d2a12 100%);
-  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+  background: linear-gradient(135deg, #1c1408 0%, #2a1f0f 50%, #401f0f 100%);
+  border-bottom: 1px solid rgba(255, 116, 0, 0.2);
   overflow: hidden;
   height: 40px;
   display: none;
@@ -317,10 +317,10 @@ body.solliciteren-page .promo-bar {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, rgba(245, 196, 82, 0.95), rgba(212, 160, 23, 0.9));
+  background: linear-gradient(135deg, rgba(253, 144, 74, 0.95), rgba(221, 97, 14, 0.9));
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 12px 22px rgba(212, 160, 23, 0.35);
+  box-shadow: 0 12px 22px rgba(221, 97, 14, 0.35);
   font-weight: 700;
   letter-spacing: 0.2px;
   font-size: 0.9rem;
@@ -344,7 +344,7 @@ body.solliciteren-page .promo-bar {
 
 .nav-discord:hover {
   transform: translateY(-2px);
-  box-shadow: 0 20px 34px rgba(212, 160, 23, 0.5), 0 0 22px rgba(212, 160, 23, 0.35);
+  box-shadow: 0 20px 34px rgba(221, 97, 14, 0.5), 0 0 22px rgba(221, 97, 14, 0.35);
   filter: brightness(1.05);
 }
 
@@ -367,8 +367,8 @@ body.solliciteren-page .promo-bar {
 }
 
 .nav-toggle:hover {
-  background: rgba(255, 215, 0, 0.08);
-  border-color: rgba(255, 215, 0, 0.2);
+  background: rgba(255, 116, 0, 0.08);
+  border-color: rgba(255, 116, 0, 0.2);
 }
 
 .nav-toggle span {
@@ -421,7 +421,7 @@ body.solliciteren-page .promo-bar {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, rgba(255, 215, 0, 0.08), transparent 60%);
+  background: linear-gradient(120deg, rgba(255, 116, 0, 0.08), transparent 60%);
   pointer-events: none;
 }
 
@@ -481,9 +481,9 @@ body.solliciteren-page .promo-bar {
   align-items: center;
   padding: 8px 18px;
   border-radius: 999px;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.35), rgba(212, 160, 23, 0.18));
-  border: 1px solid rgba(255, 215, 0, 0.6);
-  box-shadow: 0 14px 28px rgba(8, 15, 20, 0.35), 0 0 18px rgba(255, 215, 0, 0.18);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.35), rgba(221, 97, 14, 0.18));
+  border: 1px solid rgba(255, 116, 0, 0.6);
+  box-shadow: 0 14px 28px rgba(8, 15, 20, 0.35), 0 0 18px rgba(255, 116, 0, 0.18);
   position: relative;
   overflow: hidden;
   animation: eyebrow-glow 3.2s ease-in-out infinite;
@@ -508,10 +508,10 @@ body.solliciteren-page .promo-bar {
 @keyframes eyebrow-glow {
   0%,
   100% {
-    box-shadow: 0 14px 28px rgba(8, 15, 20, 0.35), 0 0 16px rgba(255, 215, 0, 0.2);
+    box-shadow: 0 14px 28px rgba(8, 15, 20, 0.35), 0 0 16px rgba(255, 116, 0, 0.2);
   }
   50% {
-    box-shadow: 0 18px 36px rgba(8, 15, 20, 0.4), 0 0 26px rgba(255, 215, 0, 0.35);
+    box-shadow: 0 18px 36px rgba(8, 15, 20, 0.4), 0 0 26px rgba(255, 116, 0, 0.35);
   }
 }
 
@@ -586,17 +586,17 @@ body.solliciteren-page .promo-bar {
 .button.primary {
   background: linear-gradient(
     135deg,
-    rgba(201, 139, 0, 0.55),
-    rgba(223, 144, 0, 0.55)
+    rgba(201, 78, 0, 0.55),
+    rgba(223, 82, 0, 0.55)
   );
   color: #000000;
-  border: 1px solid rgba(255, 215, 0, 0.3);
-  box-shadow: 0 14px 26px rgba(255, 215, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 116, 0, 0.3);
+  box-shadow: 0 14px 26px rgba(255, 116, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(6px);
 }
 
 .button.ghost {
-  border-color: rgba(255, 215, 0, 0.55);
+  border-color: rgba(255, 116, 0, 0.55);
   color: var(--text);
   background: rgba(10, 19, 26, 0.55);
   backdrop-filter: blur(12px);
@@ -607,8 +607,8 @@ body.solliciteren-page .promo-bar {
   border-color: rgba(255, 255, 255, 0.2);
   background: linear-gradient(
     135deg,
-    rgba(201, 139, 0, 0.55),
-    rgba(223, 144, 0, 0.55)
+    rgba(201, 78, 0, 0.55),
+    rgba(223, 82, 0, 0.55)
   );
   color: #000000;
   font-weight: 700;
@@ -619,23 +619,23 @@ body.solliciteren-page .promo-bar {
 }
 
 .button.primary:hover {
-  box-shadow: 0 20px 36px rgba(201, 139, 0, 0.42), 0 0 22px rgba(233, 122, 0, 0.2);
+  box-shadow: 0 20px 36px rgba(201, 78, 0, 0.42), 0 0 22px rgba(233, 72, 0, 0.2);
 }
 
 .button.ghost:hover {
-  border-color: rgba(255, 215, 0, 0.85);
-  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.35), 0 0 18px rgba(255, 215, 0, 0.2);
+  border-color: rgba(255, 116, 0, 0.85);
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.35), 0 0 18px rgba(255, 116, 0, 0.2);
 }
 
 .button.ghost.donate:hover {
   border-color: rgba(255, 255, 255, 0.24);
   background: linear-gradient(
     135deg,
-    rgba(125, 87, 0, 0.4),
-    rgba(223, 144, 0, 0.75)
+    rgba(125, 49, 0, 0.4),
+    rgba(223, 82, 0, 0.75)
   );
   box-shadow: 0 18px 34px rgba(0, 0, 0, 0.35),
-    0 0 18px rgba(255, 215, 0, 0.18),
+    0 0 18px rgba(255, 116, 0, 0.18),
     inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
@@ -647,7 +647,7 @@ body.solliciteren-page .promo-bar {
   padding: 12px 24px;
   border-radius: 999px;
   background: rgba(10, 19, 26, 0.55);
-  border: 1px solid rgba(255, 151, 0, 0.35);
+  border: 1px solid rgba(255, 87, 0, 0.35);
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.28), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease,
@@ -660,15 +660,15 @@ body.solliciteren-page .promo-bar {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, #d4a017, #d4a017 70%);
-  box-shadow: 0 0 12px rgba(255, 215, 0, 0.55);
+  background: radial-gradient(circle at 30% 30%, #dd610e, #dd610e 70%);
+  box-shadow: 0 0 12px rgba(255, 116, 0, 0.55);
 }
 
 .hero-online:hover {
   transform: translateY(-3px);
-  border-color: rgba(255, 160, 0, 0.6);
+  border-color: rgba(255, 91, 0, 0.6);
   background: rgba(14, 26, 34, 0.68);
-  box-shadow: 0 20px 36px rgba(0, 0, 0, 0.38), 0 0 18px rgba(255, 215, 0, 0.18);
+  box-shadow: 0 20px 36px rgba(0, 0, 0, 0.38), 0 0 18px rgba(255, 116, 0, 0.18);
 }
 
 .online-count {
@@ -860,14 +860,14 @@ body.solliciteren-page .promo-bar {
 }
 
 .support-info a {
-  color: #f5c452;
+  color: #fd904a;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 
 .support-info a:hover {
-  color: #d4a017;
+  color: #dd610e;
   text-decoration: underline;
 }
 
@@ -1286,7 +1286,7 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.25), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 116, 0, 0.25), transparent);
 }
 
 .home-donate::after {
@@ -1296,7 +1296,7 @@ body.solliciteren-page .promo-bar {
   right: -80px;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(255, 215, 0, 0.08) 0%, rgba(255, 215, 0, 0.03) 40%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 116, 0, 0.08) 0%, rgba(255, 116, 0, 0.03) 40%, transparent 70%);
   pointer-events: none;
   animation: donateOrb1 8s ease-in-out infinite;
 }
@@ -1313,8 +1313,8 @@ body.solliciteren-page .promo-bar {
 
 .home-donate .section-header .eyebrow {
   animation: none;
-  background: linear-gradient(135deg, rgba(191, 123, 0, 0.25), rgba(245, 196, 82, 0.2));
-  border: 1px solid rgba(255, 151, 0, 0.4);
+  background: linear-gradient(135deg, rgba(191, 70, 0, 0.25), rgba(253, 144, 74, 0.2));
+  border: 1px solid rgba(255, 87, 0, 0.4);
 }
 
 .home-donate .section-header .eyebrow::after {
@@ -1322,7 +1322,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .home-donate .section-header h2 {
-  background: linear-gradient(135deg, #ffffff 30%, #ffab2e 100%);
+  background: linear-gradient(135deg, #ffffff 30%, #ff762e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1343,7 +1343,7 @@ body.solliciteren-page .promo-bar {
   padding: 40px 28px 32px;
   border-radius: 24px;
   background: linear-gradient(160deg, rgba(20, 35, 55, 0.8), rgba(12, 20, 32, 0.9));
-  border: 1px solid rgba(255, 162, 0, 0.12);
+  border: 1px solid rgba(255, 92, 0, 0.12);
   box-shadow:
     0 16px 40px rgba(0, 0, 0, 0.35),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
@@ -1369,10 +1369,10 @@ body.solliciteren-page .promo-bar {
 
 .donate-step-item:hover {
   transform: translateY(-8px);
-  border-color: rgba(255, 162, 0, 0.35);
+  border-color: rgba(255, 92, 0, 0.35);
   box-shadow:
     0 28px 56px rgba(0, 0, 0, 0.45),
-    0 0 40px rgba(255, 215, 0, 0.1),
+    0 0 40px rgba(255, 116, 0, 0.1),
     inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
@@ -1390,8 +1390,8 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(245, 196, 82, 0.15));
-  border: 1px solid rgba(255, 162, 0, 0.35);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.2), rgba(253, 144, 74, 0.15));
+  border: 1px solid rgba(255, 92, 0, 0.35);
   color: var(--primary);
   font-weight: 800;
   font-size: 0.85rem;
@@ -1400,7 +1400,7 @@ body.solliciteren-page .promo-bar {
 
 .donate-step-item:hover .donate-step-num {
   transform: scale(1.1);
-  box-shadow: 0 0 16px rgba(255, 215, 0, 0.3);
+  box-shadow: 0 0 16px rgba(255, 116, 0, 0.3);
 }
 
 .donate-step-icon {
@@ -1410,24 +1410,24 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(245, 196, 82, 0.12));
-  border: 1px solid rgba(255, 162, 0, 0.3);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.2), rgba(253, 144, 74, 0.12));
+  border: 1px solid rgba(255, 92, 0, 0.3);
   margin-bottom: 22px;
-  box-shadow: 0 8px 24px rgba(255, 215, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(255, 116, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .donate-step-item:hover .donate-step-icon {
   transform: scale(1.08) translateY(-2px);
-  box-shadow: 0 12px 32px rgba(255, 215, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.3), rgba(245, 196, 82, 0.2));
+  box-shadow: 0 12px 32px rgba(255, 116, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.3), rgba(253, 144, 74, 0.2));
 }
 
 .donate-step-icon svg {
   width: 28px;
   height: 28px;
   color: var(--primary);
-  filter: drop-shadow(0 2px 4px rgba(255, 215, 0, 0.3));
+  filter: drop-shadow(0 2px 4px rgba(255, 116, 0, 0.3));
 }
 
 .donate-step-item h4 {
@@ -1453,15 +1453,15 @@ body.solliciteren-page .promo-bar {
   gap: 24px;
   padding: 24px 32px;
   border-radius: 16px;
-  background: linear-gradient(135deg, rgba(255, 177, 0, 0.06), rgba(245, 196, 82, 0.04));
-  border: 1px solid rgba(255, 174, 0, 0.15);
+  background: linear-gradient(135deg, rgba(255, 99, 0, 0.06), rgba(253, 144, 74, 0.04));
+  border: 1px solid rgba(255, 97, 0, 0.15);
   position: relative;
   z-index: 2;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .donate-cta-row:hover {
-  border-color: rgba(255, 215, 0, 0.25);
+  border-color: rgba(255, 116, 0, 0.25);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
@@ -1481,23 +1481,23 @@ body.solliciteren-page .promo-bar {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: #db8500;
+  color: #db4c00;
   font-weight: 700;
   font-size: 0.95rem;
   text-decoration: none;
   padding: 10px 24px;
   border-radius: 12px;
-  background: rgba(255, 215, 0, 0.08);
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  background: rgba(255, 116, 0, 0.08);
+  border: 1px solid rgba(255, 116, 0, 0.2);
   transition: all 0.3s ease;
   white-space: nowrap;
 }
 
 .donate-cta-link:hover {
   color: #ffffff;
-  background: rgba(255, 215, 0, 0.18);
-  border-color: rgba(255, 215, 0, 0.5);
-  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.15);
+  background: rgba(255, 116, 0, 0.18);
+  border-color: rgba(255, 116, 0, 0.5);
+  box-shadow: 0 4px 20px rgba(255, 116, 0, 0.15);
   text-decoration: none;
   transform: translateX(4px);
 }
@@ -1515,7 +1515,7 @@ body.solliciteren-page .promo-bar {
   height: 300px;
   bottom: -80px;
   left: -60px;
-  background: radial-gradient(circle, rgba(245, 196, 82, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(253, 144, 74, 0.06) 0%, transparent 70%);
   animation: donateDecor1 12s ease-in-out infinite;
 }
 
@@ -1524,7 +1524,7 @@ body.solliciteren-page .promo-bar {
   height: 200px;
   top: 30%;
   right: 5%;
-  background: radial-gradient(circle, rgba(255, 215, 0, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 116, 0, 0.05) 0%, transparent 70%);
   animation: donateDecor2 9s ease-in-out infinite;
 }
 
@@ -1556,14 +1556,14 @@ body.solliciteren-page .promo-bar {
   gap: 10px;
   padding: 10px 20px;
   border-radius: 999px;
-  background: rgba(255, 155, 0, 0.06);
-  border: 1px solid rgba(255, 162, 0, 0.12);
+  background: rgba(255, 89, 0, 0.06);
+  border: 1px solid rgba(255, 92, 0, 0.12);
   transition: all 0.3s ease;
 }
 
 .donate-feature:hover {
-  background: rgba(255, 155, 0, 0.12);
-  border-color: rgba(255, 162, 0, 0.3);
+  background: rgba(255, 89, 0, 0.12);
+  border-color: rgba(255, 92, 0, 0.3);
   transform: translateY(-2px);
 }
 
@@ -1594,7 +1594,7 @@ body.solliciteren-page .promo-bar {
   height: 350px;
   top: 10%;
   right: -80px;
-  background: radial-gradient(circle, rgba(245, 196, 82, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(253, 144, 74, 0.06) 0%, transparent 70%);
   animation: applyGlow1 11s ease-in-out infinite;
 }
 
@@ -1603,7 +1603,7 @@ body.solliciteren-page .promo-bar {
   height: 250px;
   bottom: 15%;
   left: 5%;
-  background: radial-gradient(circle, rgba(255, 215, 0, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 116, 0, 0.05) 0%, transparent 70%);
   animation: applyGlow2 8s ease-in-out infinite;
 }
 
@@ -1625,9 +1625,9 @@ body.solliciteren-page .promo-bar {
   content-visibility: auto;
   contain-intrinsic-size: 0 900px;
   background:
-    radial-gradient(ellipse at 20% 0%, rgba(255, 177, 0, 0.08), transparent 50%),
-    radial-gradient(ellipse at 80% 100%, rgba(245, 196, 82, 0.06), transparent 50%),
-    radial-gradient(ellipse at 50% 50%, rgba(255, 215, 0, 0.03), transparent 60%),
+    radial-gradient(ellipse at 20% 0%, rgba(255, 99, 0, 0.08), transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(253, 144, 74, 0.06), transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(255, 116, 0, 0.03), transparent 60%),
     linear-gradient(180deg, #0d1722 0%, #121e2e 40%, #0f1b28 70%, #0c1520 100%);
 }
 
@@ -1638,7 +1638,7 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(245, 196, 82, 0.2), rgba(255, 215, 0, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(253, 144, 74, 0.2), rgba(255, 116, 0, 0.2), transparent);
 }
 
 .home-apply::after {
@@ -1648,7 +1648,7 @@ body.solliciteren-page .promo-bar {
   left: -60px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(245, 196, 82, 0.07) 0%, rgba(245, 196, 82, 0.02) 40%, transparent 70%);
+  background: radial-gradient(circle, rgba(253, 144, 74, 0.07) 0%, rgba(253, 144, 74, 0.02) 40%, transparent 70%);
   pointer-events: none;
   animation: applyOrb 10s ease-in-out infinite;
 }
@@ -1677,10 +1677,10 @@ body.solliciteren-page .promo-bar {
   padding: 48px 40px;
   border-radius: 24px;
   background: linear-gradient(160deg, rgba(18, 30, 48, 0.8), rgba(12, 20, 32, 0.9));
-  border: 1px solid rgba(245, 196, 82, 0.15);
+  border: 1px solid rgba(253, 144, 74, 0.15);
   box-shadow:
     0 24px 64px rgba(0, 0, 0, 0.4),
-    0 0 60px rgba(245, 196, 82, 0.04),
+    0 0 60px rgba(253, 144, 74, 0.04),
     inset 0 1px 0 rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
@@ -1694,15 +1694,15 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, var(--primary), rgba(245, 196, 82, 0.8), var(--primary));
+  background: linear-gradient(90deg, var(--primary), rgba(253, 144, 74, 0.8), var(--primary));
   opacity: 0.6;
 }
 
 .apply-left-card:hover {
-  border-color: rgba(245, 196, 82, 0.25);
+  border-color: rgba(253, 144, 74, 0.25);
   box-shadow:
     0 28px 72px rgba(0, 0, 0, 0.45),
-    0 0 80px rgba(245, 196, 82, 0.06),
+    0 0 80px rgba(253, 144, 74, 0.06),
     inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
@@ -1715,8 +1715,8 @@ body.solliciteren-page .promo-bar {
   color: var(--primary);
   margin-bottom: 16px;
   padding: 6px 16px;
-  background: rgba(255, 215, 0, 0.08);
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  background: rgba(255, 116, 0, 0.08);
+  border: 1px solid rgba(255, 116, 0, 0.2);
   border-radius: 999px;
 }
 
@@ -1726,7 +1726,7 @@ body.solliciteren-page .promo-bar {
   line-height: 1.2;
   margin-bottom: 18px;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #ffffff 40%, #d4a017 100%);
+  background: linear-gradient(135deg, #ffffff 40%, #dd610e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1745,10 +1745,10 @@ body.solliciteren-page .promo-bar {
   gap: 10px;
   padding: 14px 32px;
   border-radius: 14px;
-  background: linear-gradient(135deg, rgba(255, 177, 0, 0.95), rgba(161, 110, 23, 0.9));
+  background: linear-gradient(135deg, rgba(255, 99, 0, 0.95), rgba(168, 70, 16, 0.9));
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 12px 28px rgba(212, 160, 23, 0.35);
+  box-shadow: 0 12px 28px rgba(221, 97, 14, 0.35);
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.2px;
@@ -1762,13 +1762,13 @@ body.solliciteren-page .promo-bar {
 
 .apply-discord-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 18px 36px rgba(212, 160, 23, 0.5), 0 0 20px rgba(212, 160, 23, 0.3);
+  box-shadow: 0 18px 36px rgba(221, 97, 14, 0.5), 0 0 20px rgba(221, 97, 14, 0.3);
   filter: brightness(1.05);
 }
 
 .apply-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.2), rgba(245, 196, 82, 0.15), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 116, 0, 0.2), rgba(253, 144, 74, 0.15), transparent);
   margin: 32px 0;
 }
 
@@ -1800,17 +1800,17 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.12), rgba(245, 196, 82, 0.08));
-  border: 1px solid rgba(255, 215, 0, 0.25);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.12), rgba(253, 144, 74, 0.08));
+  border: 1px solid rgba(255, 116, 0, 0.25);
   flex-shrink: 0;
   transition: background 0.3s ease, border-color 0.3s ease, transform 0.25s ease;
 }
 
 .apply-stat:hover .apply-stat-icon {
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.22), rgba(245, 196, 82, 0.15));
-  border-color: rgba(255, 215, 0, 0.5);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.22), rgba(253, 144, 74, 0.15));
+  border-color: rgba(255, 116, 0, 0.5);
   transform: scale(1.08);
-  box-shadow: 0 4px 16px rgba(255, 215, 0, 0.15);
+  box-shadow: 0 4px 16px rgba(255, 116, 0, 0.15);
 }
 
 .apply-stat-icon svg {
@@ -1847,7 +1847,7 @@ body.solliciteren-page .promo-bar {
   padding: 32px;
   border-radius: 20px;
   background: linear-gradient(160deg, rgba(18, 30, 48, 0.5), rgba(12, 20, 32, 0.6));
-  border: 1px solid rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 116, 0, 0.1);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -1860,13 +1860,13 @@ body.solliciteren-page .promo-bar {
   left: 0;
   bottom: 0;
   width: 3px;
-  background: linear-gradient(180deg, var(--primary), rgba(245, 196, 82, 0.6), transparent);
+  background: linear-gradient(180deg, var(--primary), rgba(253, 144, 74, 0.6), transparent);
   opacity: 0.5;
 }
 
 .apply-process:hover {
-  border-color: rgba(255, 215, 0, 0.2);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25), 0 0 30px rgba(255, 215, 0, 0.04);
+  border-color: rgba(255, 116, 0, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25), 0 0 30px rgba(255, 116, 0, 0.04);
 }
 
 .apply-process-title {
@@ -1875,7 +1875,7 @@ body.solliciteren-page .promo-bar {
   color: var(--text);
   margin-bottom: 28px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.12);
+  border-bottom: 1px solid rgba(255, 116, 0, 0.12);
 }
 
 .apply-step-row {
@@ -1890,14 +1890,14 @@ body.solliciteren-page .promo-bar {
 }
 
 .apply-step-row:hover {
-  background: rgba(255, 215, 0, 0.04);
+  background: rgba(255, 116, 0, 0.04);
   transform: translateX(4px);
 }
 
 .apply-step-row:hover .apply-step-circle {
-  background: rgba(255, 215, 0, 0.25);
-  border-color: rgba(255, 215, 0, 0.6);
-  box-shadow: 0 0 14px rgba(255, 215, 0, 0.2);
+  background: rgba(255, 116, 0, 0.25);
+  border-color: rgba(255, 116, 0, 0.6);
+  box-shadow: 0 0 14px rgba(255, 116, 0, 0.2);
   transform: scale(1.1);
 }
 
@@ -1927,8 +1927,8 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 215, 0, 0.12);
-  border: 1.5px solid rgba(255, 215, 0, 0.35);
+  background: rgba(255, 116, 0, 0.12);
+  border: 1.5px solid rgba(255, 116, 0, 0.35);
   color: var(--primary);
   font-weight: 700;
   font-size: 0.85rem;
@@ -1939,7 +1939,7 @@ body.solliciteren-page .promo-bar {
 .apply-step-line {
   width: 1.5px;
   height: 36px;
-  background: linear-gradient(180deg, rgba(255, 215, 0, 0.3), rgba(255, 215, 0, 0.05));
+  background: linear-gradient(180deg, rgba(255, 116, 0, 0.3), rgba(255, 116, 0, 0.05));
 }
 
 .apply-step-text {
@@ -1965,7 +1965,7 @@ body.solliciteren-page .promo-bar {
   padding: 32px;
   border-radius: 20px;
   background: linear-gradient(160deg, rgba(18, 30, 48, 0.5), rgba(12, 20, 32, 0.6));
-  border: 1px solid rgba(245, 196, 82, 0.1);
+  border: 1px solid rgba(253, 144, 74, 0.1);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -1978,13 +1978,13 @@ body.solliciteren-page .promo-bar {
   left: 0;
   bottom: 0;
   width: 3px;
-  background: linear-gradient(180deg, rgba(245, 196, 82, 0.6), var(--primary), transparent);
+  background: linear-gradient(180deg, rgba(253, 144, 74, 0.6), var(--primary), transparent);
   opacity: 0.5;
 }
 
 .apply-requirements:hover {
-  border-color: rgba(245, 196, 82, 0.2);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25), 0 0 30px rgba(245, 196, 82, 0.04);
+  border-color: rgba(253, 144, 74, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25), 0 0 30px rgba(253, 144, 74, 0.04);
 }
 
 .apply-req-title {
@@ -1993,7 +1993,7 @@ body.solliciteren-page .promo-bar {
   color: var(--text);
   margin-bottom: 20px;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(245, 196, 82, 0.12);
+  border-bottom: 1px solid rgba(253, 144, 74, 0.12);
 }
 
 .apply-req-grid {
@@ -2014,13 +2014,13 @@ body.solliciteren-page .promo-bar {
 }
 
 .apply-req-item:hover {
-  background: rgba(255, 215, 0, 0.06);
+  background: rgba(255, 116, 0, 0.06);
   transform: translateX(4px);
 }
 
 .apply-req-item:hover svg {
   transform: scale(1.2);
-  filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.4));
+  filter: drop-shadow(0 0 6px rgba(255, 116, 0, 0.4));
 }
 
 .apply-req-item:hover span {
@@ -2062,7 +2062,7 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 116, 0, 0.2), transparent);
 }
 
 .sol-hero-glow {
@@ -2077,7 +2077,7 @@ body.solliciteren-page .promo-bar {
   height: 500px;
   top: -100px;
   left: -100px;
-  background: radial-gradient(circle, rgba(245, 196, 82, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(253, 144, 74, 0.08) 0%, transparent 70%);
   animation: solGlow1 10s ease-in-out infinite;
 }
 
@@ -2086,7 +2086,7 @@ body.solliciteren-page .promo-bar {
   height: 400px;
   top: -50px;
   right: -80px;
-  background: radial-gradient(circle, rgba(255, 215, 0, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 116, 0, 0.06) 0%, transparent 70%);
   animation: solGlow2 8s ease-in-out infinite;
 }
 
@@ -2113,7 +2113,7 @@ body.solliciteren-page .promo-bar {
   margin: 16px 0 18px;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #ffffff 30%, #f5c452 100%);
+  background: linear-gradient(135deg, #ffffff 30%, #fd904a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2145,7 +2145,7 @@ body.solliciteren-page .promo-bar {
 
 .sol-back-link:hover {
   transform: translateX(-4px);
-  color: #d4a017;
+  color: #dd610e;
 }
 
 /* Solliciteren Cards */
@@ -2166,7 +2166,7 @@ body.solliciteren-page .promo-bar {
   position: relative;
   border-radius: 28px;
   background: linear-gradient(160deg, rgba(18, 30, 48, 0.85), rgba(12, 20, 32, 0.95));
-  border: 1px solid rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 116, 0, 0.1);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06);
   display: flex;
   flex-direction: row;
@@ -2188,8 +2188,8 @@ body.solliciteren-page .promo-bar {
 
 .sol-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(255, 215, 0, 0.3);
-  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.45), 0 0 50px rgba(255, 215, 0, 0.06);
+  border-color: rgba(255, 116, 0, 0.3);
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.45), 0 0 50px rgba(255, 116, 0, 0.06);
 }
 
 .sol-card:hover::before {
@@ -2211,12 +2211,12 @@ body.solliciteren-page .promo-bar {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at center, rgba(255, 215, 0, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(255, 116, 0, 0.06) 0%, transparent 70%);
   transition: opacity 0.3s ease;
 }
 
 .sol-card:hover .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(255, 215, 0, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(255, 116, 0, 0.12) 0%, transparent 70%);
 }
 
 .sol-card-img {
@@ -2231,7 +2231,7 @@ body.solliciteren-page .promo-bar {
 
 .sol-card:hover .sol-card-img {
   transform: scale(1.1) translateY(-4px);
-  filter: drop-shadow(0 16px 32px rgba(255, 215, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(255, 116, 0, 0.15));
 }
 
 /* Card body */
@@ -2253,7 +2253,7 @@ body.solliciteren-page .promo-bar {
   letter-spacing: 0.8px;
   text-transform: uppercase;
   background: rgba(34, 197, 94, 0.12);
-  color: #f5c452;
+  color: #fd904a;
   border: 1px solid rgba(34, 197, 94, 0.25);
   margin-bottom: 14px;
 }
@@ -2297,63 +2297,63 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-card-btn-primary {
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.25), rgba(245, 196, 82, 0.2));
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.25), rgba(253, 144, 74, 0.2));
   color: #ffffff;
-  border: 1px solid rgba(255, 215, 0, 0.35);
-  box-shadow: 0 8px 24px rgba(255, 215, 0, 0.12);
+  border: 1px solid rgba(255, 116, 0, 0.35);
+  box-shadow: 0 8px 24px rgba(255, 116, 0, 0.12);
 }
 
 .sol-card-btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 32px rgba(255, 215, 0, 0.25);
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.35), rgba(245, 196, 82, 0.3));
+  box-shadow: 0 14px 32px rgba(255, 116, 0, 0.25);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.35), rgba(253, 144, 74, 0.3));
 }
 
 .sol-card-btn-discord {
-  background: linear-gradient(135deg, rgba(245, 196, 82, 0.85), rgba(245, 196, 82, 0.85));
+  background: linear-gradient(135deg, rgba(253, 144, 74, 0.85), rgba(253, 144, 74, 0.85));
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 24px rgba(245, 196, 82, 0.25);
+  box-shadow: 0 8px 24px rgba(253, 144, 74, 0.25);
 }
 
 .sol-card-btn-discord:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 32px rgba(245, 196, 82, 0.4);
+  box-shadow: 0 14px 32px rgba(253, 144, 74, 0.4);
 }
 
 /* Card accent colors */
-.sol-card-staff { border-color: rgba(255, 215, 0, 0.15); }
-.sol-card-staff:hover { border-color: rgba(255, 215, 0, 0.35); }
-.sol-card-staff::before { background: linear-gradient(90deg, transparent, #f5c452, transparent); }
+.sol-card-staff { border-color: rgba(255, 116, 0, 0.15); }
+.sol-card-staff:hover { border-color: rgba(255, 116, 0, 0.35); }
+.sol-card-staff::before { background: linear-gradient(90deg, transparent, #fd904a, transparent); }
 
-.sol-card-politie { border-color: rgba(245, 196, 82, 0.12); }
-.sol-card-politie:hover { border-color: rgba(245, 196, 82, 0.3); }
-.sol-card-politie::before { background: linear-gradient(90deg, transparent, #f5c452, transparent); }
+.sol-card-politie { border-color: rgba(253, 144, 74, 0.12); }
+.sol-card-politie:hover { border-color: rgba(253, 144, 74, 0.3); }
+.sol-card-politie::before { background: linear-gradient(90deg, transparent, #fd904a, transparent); }
 .sol-card-politie .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(245, 196, 82, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(253, 144, 74, 0.06) 0%, transparent 70%);
 }
 .sol-card-politie:hover .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(245, 196, 82, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(253, 144, 74, 0.12) 0%, transparent 70%);
 }
 
-.sol-card-defensie { border-color: rgba(245, 196, 82, 0.12); }
-.sol-card-defensie:hover { border-color: rgba(245, 196, 82, 0.3); }
-.sol-card-defensie::before { background: linear-gradient(90deg, transparent, #f5c452, transparent); }
+.sol-card-defensie { border-color: rgba(253, 144, 74, 0.12); }
+.sol-card-defensie:hover { border-color: rgba(253, 144, 74, 0.3); }
+.sol-card-defensie::before { background: linear-gradient(90deg, transparent, #fd904a, transparent); }
 .sol-card-defensie .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(245, 196, 82, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(253, 144, 74, 0.06) 0%, transparent 70%);
 }
 .sol-card-defensie:hover .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(245, 196, 82, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(253, 144, 74, 0.12) 0%, transparent 70%);
 }
 
-.sol-card-ambulance { border-color: rgba(234, 179, 8, 0.12); }
-.sol-card-ambulance:hover { border-color: rgba(234, 179, 8, 0.3); }
-.sol-card-ambulance::before { background: linear-gradient(90deg, transparent, #facc15, transparent); }
+.sol-card-ambulance { border-color: rgba(242, 101, 0, 0.12); }
+.sol-card-ambulance:hover { border-color: rgba(242, 101, 0, 0.3); }
+.sol-card-ambulance::before { background: linear-gradient(90deg, transparent, #ff7810, transparent); }
 .sol-card-ambulance .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(234, 179, 8, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(242, 101, 0, 0.06) 0%, transparent 70%);
 }
 .sol-card-ambulance:hover .sol-card-img-wrap::after {
-  background: radial-gradient(circle at center, rgba(234, 179, 8, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(242, 101, 0, 0.12) 0%, transparent 70%);
 }
 
 /* ── Sol Process Section ── */
@@ -2361,8 +2361,8 @@ body.solliciteren-page .promo-bar {
   position: relative;
   padding: 100px 24px 110px;
   background:
-    radial-gradient(ellipse at 30% 0%, rgba(255, 215, 0, 0.06) 0%, transparent 50%),
-    radial-gradient(ellipse at 70% 100%, rgba(245, 196, 82, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 30% 0%, rgba(255, 116, 0, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 100%, rgba(253, 144, 74, 0.05) 0%, transparent 50%),
     linear-gradient(180deg, #0a1018 0%, #0d1724 40%, #0b1320 100%);
   overflow: hidden;
 }
@@ -2373,7 +2373,7 @@ body.solliciteren-page .promo-bar {
   right: -100px;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(255, 215, 0, 0.06) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(255, 116, 0, 0.06) 0%, transparent 65%);
   pointer-events: none;
   animation: solProcessOrb 10s ease-in-out infinite;
 }
@@ -2423,8 +2423,8 @@ body.solliciteren-page .promo-bar {
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(245, 196, 82, 0.15));
-  border: 1px solid rgba(255, 215, 0, 0.35);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.2), rgba(253, 144, 74, 0.15));
+  border: 1px solid rgba(255, 116, 0, 0.35);
   color: var(--primary);
   margin-bottom: 20px;
 }
@@ -2434,7 +2434,7 @@ body.solliciteren-page .promo-bar {
   font-weight: 800;
   letter-spacing: -0.025em;
   line-height: 1.2;
-  background: linear-gradient(135deg, #ffffff 25%, #f5c452 100%);
+  background: linear-gradient(135deg, #ffffff 25%, #fd904a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2464,20 +2464,20 @@ body.solliciteren-page .promo-bar {
   padding: 40px 36px 36px;
   border-radius: 26px;
   background: linear-gradient(165deg, rgba(16, 28, 46, 0.75), rgba(10, 18, 30, 0.85));
-  border: 1px solid rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 116, 0, 0.1);
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.04);
   transition: border-color 0.35s ease, box-shadow 0.35s ease, transform 0.35s ease;
 }
 
 .sol-route:hover {
   transform: translateY(-4px);
-  border-color: rgba(255, 215, 0, 0.22);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(255, 215, 0, 0.04);
+  border-color: rgba(255, 116, 0, 0.22);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(255, 116, 0, 0.04);
 }
 
 .sol-route--discord:hover {
-  border-color: rgba(245, 196, 82, 0.25);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(245, 196, 82, 0.04);
+  border-color: rgba(253, 144, 74, 0.25);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(253, 144, 74, 0.04);
 }
 
 /* Route header */
@@ -2498,9 +2498,9 @@ body.solliciteren-page .promo-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(245, 196, 82, 0.1));
-  border: 1px solid rgba(255, 215, 0, 0.3);
-  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.08);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.15), rgba(253, 144, 74, 0.1));
+  border: 1px solid rgba(255, 116, 0, 0.3);
+  box-shadow: 0 6px 20px rgba(255, 116, 0, 0.08);
 }
 
 .sol-route-icon svg {
@@ -2510,13 +2510,13 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-route-icon--discord {
-  background: linear-gradient(135deg, rgba(245, 196, 82, 0.2), rgba(71, 82, 196, 0.15));
-  border-color: rgba(245, 196, 82, 0.35);
-  box-shadow: 0 6px 20px rgba(245, 196, 82, 0.1);
+  background: linear-gradient(135deg, rgba(253, 144, 74, 0.2), rgba(71, 82, 196, 0.15));
+  border-color: rgba(253, 144, 74, 0.35);
+  box-shadow: 0 6px 20px rgba(253, 144, 74, 0.1);
 }
 
 .sol-route-icon--discord svg {
-  color: #f5c452;
+  color: #fd904a;
 }
 
 .sol-route-tag {
@@ -2530,7 +2530,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-route-tag--discord {
-  color: #f5c452;
+  color: #fd904a;
 }
 
 .sol-route-head h3 {
@@ -2569,12 +2569,12 @@ body.solliciteren-page .promo-bar {
   transform: translateX(-50%);
   width: 2px;
   bottom: 0;
-  background: linear-gradient(180deg, rgba(255, 215, 0, 0.2), rgba(255, 215, 0, 0.05));
+  background: linear-gradient(180deg, rgba(255, 116, 0, 0.2), rgba(255, 116, 0, 0.05));
   border-radius: 2px;
 }
 
 .sol-route--discord .sol-step:not(:last-child) .sol-step-marker::after {
-  background: linear-gradient(180deg, rgba(245, 196, 82, 0.2), rgba(245, 196, 82, 0.05));
+  background: linear-gradient(180deg, rgba(253, 144, 74, 0.2), rgba(253, 144, 74, 0.05));
 }
 
 .sol-step-marker {
@@ -2586,15 +2586,15 @@ body.solliciteren-page .promo-bar {
   align-items: center;
   justify-content: center;
   position: relative;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.12), rgba(245, 196, 82, 0.08));
-  border: 1px solid rgba(255, 215, 0, 0.2);
-  box-shadow: 0 4px 16px rgba(255, 215, 0, 0.06);
+  background: linear-gradient(135deg, rgba(255, 116, 0, 0.12), rgba(253, 144, 74, 0.08));
+  border: 1px solid rgba(255, 116, 0, 0.2);
+  box-shadow: 0 4px 16px rgba(255, 116, 0, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .sol-step:hover .sol-step-marker {
   transform: scale(1.08);
-  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.14);
+  box-shadow: 0 6px 20px rgba(255, 116, 0, 0.14);
 }
 
 .sol-step-marker span {
@@ -2604,17 +2604,17 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-step-marker--discord {
-  background: linear-gradient(135deg, rgba(245, 196, 82, 0.14), rgba(71, 82, 196, 0.08));
-  border-color: rgba(245, 196, 82, 0.25);
-  box-shadow: 0 4px 16px rgba(245, 196, 82, 0.06);
+  background: linear-gradient(135deg, rgba(253, 144, 74, 0.14), rgba(71, 82, 196, 0.08));
+  border-color: rgba(253, 144, 74, 0.25);
+  box-shadow: 0 4px 16px rgba(253, 144, 74, 0.06);
 }
 
 .sol-step:hover .sol-step-marker--discord {
-  box-shadow: 0 6px 20px rgba(245, 196, 82, 0.14);
+  box-shadow: 0 6px 20px rgba(253, 144, 74, 0.14);
 }
 
 .sol-step-marker--discord span {
-  color: #f5c452;
+  color: #fd904a;
 }
 
 .sol-step-content h4 {
@@ -2652,7 +2652,7 @@ body.solliciteren-page .promo-bar {
   padding: 20px 28px;
   border-radius: 18px;
   background: linear-gradient(135deg, rgba(18, 30, 48, 0.5), rgba(12, 20, 32, 0.6));
-  border: 1px solid rgba(255, 215, 0, 0.08);
+  border: 1px solid rgba(255, 116, 0, 0.08);
 }
 
 .sol-req-item {
@@ -2667,8 +2667,8 @@ body.solliciteren-page .promo-bar {
 }
 
 .sol-req-item:hover {
-  border-color: rgba(255, 215, 0, 0.15);
-  background: rgba(255, 215, 0, 0.04);
+  border-color: rgba(255, 116, 0, 0.15);
+  background: rgba(255, 116, 0, 0.04);
 }
 
 .sol-req-item svg {
@@ -2694,8 +2694,8 @@ body.solliciteren-page .promo-bar {
   min-height: 100vh;
   padding: 160px 32px 100px;
   background:
-    radial-gradient(ellipse at 30% 0%, rgba(255, 215, 0, 0.05) 0%, transparent 50%),
-    radial-gradient(ellipse at 70% 100%, rgba(245, 196, 82, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 30% 0%, rgba(255, 116, 0, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 100%, rgba(253, 144, 74, 0.04) 0%, transparent 50%),
     linear-gradient(180deg, #0f0c08 0%, #0f0c08 100%);
   position: relative;
   overflow: hidden;
@@ -2713,7 +2713,7 @@ body.solliciteren-page .promo-bar {
   height: 700px;
   top: -250px;
   left: -200px;
-  background: radial-gradient(circle, rgba(255, 215, 0, 0.045) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(255, 116, 0, 0.045) 0%, transparent 65%);
 }
 
 .sf-glow-2 {
@@ -2721,7 +2721,7 @@ body.solliciteren-page .promo-bar {
   height: 600px;
   bottom: -150px;
   right: -200px;
-  background: radial-gradient(circle, rgba(245, 196, 82, 0.04) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(253, 144, 74, 0.04) 0%, transparent 65%);
 }
 
 /* Hero */
@@ -2789,7 +2789,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .sf-sidebar-card:hover {
-  border-color: rgba(255, 215, 0, 0.12);
+  border-color: rgba(255, 116, 0, 0.12);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -2852,8 +2852,8 @@ body.solliciteren-page .promo-bar {
   width: 24px;
   height: 24px;
   border-radius: 6px;
-  background: rgba(255, 215, 0, 0.08);
-  border: 1px solid rgba(255, 215, 0, 0.12);
+  background: rgba(255, 116, 0, 0.08);
+  border: 1px solid rgba(255, 116, 0, 0.12);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2878,11 +2878,11 @@ body.solliciteren-page .promo-bar {
   width: 100%;
   padding: 10px 16px;
   border-radius: 8px;
-  background: rgba(245, 196, 82, 0.12);
-  border: 1px solid rgba(245, 196, 82, 0.18);
+  background: rgba(253, 144, 74, 0.12);
+  border: 1px solid rgba(253, 144, 74, 0.18);
   font-size: 0.78rem;
   font-weight: 600;
-  color: #f5c4522e;
+  color: #fd904a2e;
   text-decoration: none;
   transition: background 0.25s, border-color 0.25s, transform 0.15s;
 }
@@ -2894,8 +2894,8 @@ body.solliciteren-page .promo-bar {
 }
 
 .sf-discord-link:hover {
-  background: rgba(245, 196, 82, 0.18);
-  border-color: rgba(245, 196, 82, 0.3);
+  background: rgba(253, 144, 74, 0.18);
+  border-color: rgba(253, 144, 74, 0.3);
   transform: translateY(-1px);
 }
 
@@ -2987,8 +2987,8 @@ body.solliciteren-page .promo-bar {
 
 .sf-field input:focus,
 .sf-field textarea:focus {
-  border-color: rgba(255, 215, 0, 0.3);
-  box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.06);
+  border-color: rgba(255, 116, 0, 0.3);
+  box-shadow: 0 0 0 3px rgba(255, 116, 0, 0.06);
 }
 
 .sf-field textarea {
@@ -3027,7 +3027,7 @@ body.solliciteren-page .promo-bar {
 
 .sf-btn:hover:not(:disabled) {
   background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 215, 0, 0.25);
+  border-color: rgba(255, 116, 0, 0.25);
   transform: translateY(-1px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
@@ -3095,7 +3095,7 @@ body.solliciteren-page .promo-bar {
 .sf-message-success {
   background: rgba(34, 197, 94, 0.08);
   border: 1px solid rgba(34, 197, 94, 0.15);
-  color: #f5c452;
+  color: #fd904a;
 }
 
 .sf-message-error {
@@ -3107,7 +3107,7 @@ body.solliciteren-page .promo-bar {
 /* Home CTA Section */
 .home-cta {
   background:
-    radial-gradient(ellipse at 50% 0%, rgba(255, 215, 0, 0.12), transparent 60%),
+    radial-gradient(ellipse at 50% 0%, rgba(255, 116, 0, 0.12), transparent 60%),
     linear-gradient(180deg, #0b141c 0%, #0d1520 50%, #0b141c 100%);
   position: relative;
   text-align: center;
@@ -3120,7 +3120,7 @@ body.solliciteren-page .promo-bar {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.15), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 116, 0, 0.15), transparent);
 }
 
 .home-cta-inner {
@@ -3159,7 +3159,7 @@ body.solliciteren-page .promo-bar {
 }
 
 .cta {
-  background: radial-gradient(circle at top, rgba(255, 215, 0, 0.2), transparent 60%);
+  background: radial-gradient(circle at top, rgba(255, 116, 0, 0.2), transparent 60%);
 }
 
 .cta-card {
@@ -3244,8 +3244,8 @@ body.solliciteren-page .promo-bar {
 }
 
 .footer-socials a:hover {
-  background: rgba(255, 215, 0, 0.1);
-  border-color: rgba(255, 215, 0, 0.3);
+  background: rgba(255, 116, 0, 0.1);
+  border-color: rgba(255, 116, 0, 0.3);
   color: var(--primary);
   transform: translateY(-2px);
 }
@@ -3430,7 +3430,7 @@ body.solliciteren-page .promo-bar {
     -webkit-backdrop-filter: blur(24px);
     border: none;
     border-radius: 0 0 20px 20px;
-    border-top: 1px solid rgba(255, 215, 0, 0.1);
+    border-top: 1px solid rgba(255, 116, 0, 0.1);
     padding: 12px 16px 20px;
     flex-direction: column;
     align-items: stretch;
@@ -3460,16 +3460,16 @@ body.solliciteren-page .promo-bar {
 
   .nav-links a:hover,
   .nav-links a:focus {
-    background: rgba(255, 215, 0, 0.08);
+    background: rgba(255, 116, 0, 0.08);
     color: #ffffff;
-    border-color: rgba(255, 215, 0, 0.12);
+    border-color: rgba(255, 116, 0, 0.12);
     transform: translateX(6px);
   }
 
   .nav-links a.active {
-    background: rgba(255, 215, 0, 0.1);
+    background: rgba(255, 116, 0, 0.1);
     color: var(--primary);
-    border-color: rgba(255, 215, 0, 0.2);
+    border-color: rgba(255, 116, 0, 0.2);
     font-weight: 700;
   }
 
@@ -3485,9 +3485,9 @@ body.solliciteren-page .promo-bar {
     margin-top: 8px;
     padding: 14px 18px !important;
     border-radius: 12px !important;
-    background: linear-gradient(135deg, rgba(245, 196, 82, 0.18), rgba(71, 82, 196, 0.12)) !important;
-    border: 1px solid rgba(245, 196, 82, 0.25) !important;
-    color: #f5c45240 !important;
+    background: linear-gradient(135deg, rgba(253, 144, 74, 0.18), rgba(71, 82, 196, 0.12)) !important;
+    border: 1px solid rgba(253, 144, 74, 0.25) !important;
+    color: #fd904a40 !important;
     font-weight: 700 !important;
     font-size: 0.95rem !important;
     transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease !important;
@@ -3517,9 +3517,9 @@ body.solliciteren-page .promo-bar {
   }
 
   .nav-link-discord:hover {
-    background: linear-gradient(135deg, rgba(245, 196, 82, 0.28), rgba(71, 82, 196, 0.22)) !important;
+    background: linear-gradient(135deg, rgba(253, 144, 74, 0.28), rgba(71, 82, 196, 0.22)) !important;
     transform: translateX(6px) !important;
-    box-shadow: 0 8px 24px rgba(245, 196, 82, 0.2) !important;
+    box-shadow: 0 8px 24px rgba(253, 144, 74, 0.2) !important;
     color: #a5b4fc !important;
   }
 
@@ -4343,4 +4343,170 @@ body.solliciteren-page .promo-bar {
 .apply-requirements {
   transform: translateZ(0);
   backface-visibility: hidden;
+}
+
+/* ==========================================================
+   TITAN ORANJE UPGRADE - extra stijl, animaties en details
+   ========================================================== */
+:root {
+  --orange-grad: linear-gradient(135deg, #ff4d00 0%, #ff7a1a 55%, #ffa24d 100%);
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+html { scroll-behavior: smooth; }
+::selection { background: #ff6a00; color: #fff; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-track { background: #0e0905; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff6a00, #b83c00);
+  border-radius: 999px;
+  border: 2px solid #0e0905;
+}
+::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, #ff9a3c, #ff6a00); }
+
+:focus-visible { outline: 2px solid #ff9a3c; outline-offset: 3px; border-radius: 8px; }
+
+/* Achtergrond met warme gloed */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(900px 500px at 12% -5%, rgba(255, 106, 0, 0.10), transparent 60%),
+    radial-gradient(800px 500px at 100% 30%, rgba(255, 140, 40, 0.06), transparent 60%);
+}
+
+/* Promo-balk en header */
+.promo-bar {
+  background: linear-gradient(90deg, #2a1006 0%, #4d1d07 50%, #2a1006 100%);
+  border-bottom: 1px solid rgba(255, 122, 26, 0.35);
+}
+.site-header {
+  background: linear-gradient(180deg, rgba(20, 11, 6, 0.82), rgba(20, 11, 6, 0.55));
+  backdrop-filter: blur(18px) saturate(1.3);
+  -webkit-backdrop-filter: blur(18px) saturate(1.3);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.site-header.scrolled {
+  background: rgba(16, 9, 5, 0.92);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.55), 0 1px 0 rgba(255, 106, 0, 0.35);
+}
+.logo img, .logo-mark img {
+  filter: hue-rotate(-20deg) saturate(1.15) drop-shadow(0 0 10px rgba(255, 106, 0, 0.5));
+  transition: transform 0.4s var(--ease-out), filter 0.4s ease;
+}
+.logo:hover img, .logo:hover .logo-mark img {
+  transform: rotate(-6deg) scale(1.08);
+  filter: hue-rotate(-20deg) saturate(1.3) drop-shadow(0 0 16px rgba(255, 122, 26, 0.9));
+}
+.nav-links a::after {
+  background: var(--orange-grad);
+  box-shadow: 0 0 12px rgba(255, 106, 0, 0.8);
+}
+.nav-links a.active, .nav-links a:hover { text-shadow: 0 0 18px rgba(255, 106, 0, 0.55); }
+
+/* Hero */
+.hero-overlay {
+  background:
+    radial-gradient(ellipse at 50% 115%, rgba(255, 90, 0, 0.35), transparent 62%),
+    linear-gradient(180deg, rgba(10, 6, 3, 0.55) 0%, rgba(10, 6, 3, 0.82) 100%);
+}
+.hero h1 {
+  text-shadow: 0 6px 40px rgba(255, 106, 0, 0.35);
+  animation: heroRise 1s var(--ease-out) both;
+}
+.hero-subtitle { animation: heroRise 1s 0.15s var(--ease-out) both; }
+.hero-actions { animation: heroRise 1s 0.3s var(--ease-out) both; }
+.hero-online { animation: heroRise 1s 0.45s var(--ease-out) both; }
+@keyframes heroRise {
+  from { opacity: 0; transform: translateY(26px); }
+  to { opacity: 1; transform: none; }
+}
+.hero-embers {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+/* Knoppen */
+.button.primary, .button.ghost.donate, .apply-discord-btn, .sol-card-btn-primary, .shop-card-btn {
+  background: var(--orange-grad);
+  color: #1a0a02;
+  border: 1px solid rgba(255, 190, 120, 0.45);
+  box-shadow: 0 14px 30px rgba(255, 90, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  position: relative;
+  overflow: hidden;
+}
+.button.primary::after, .button.ghost.donate::after, .apply-discord-btn::after, .shop-card-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.45) 50%, transparent 70%);
+  transform: translateX(-130%);
+  transition: transform 0.8s var(--ease-out);
+  pointer-events: none;
+}
+.button.primary:hover::after, .button.ghost.donate:hover::after,
+.apply-discord-btn:hover::after, .shop-card-btn:hover::after { transform: translateX(130%); }
+.button.primary:hover, .button.ghost.donate:hover, .apply-discord-btn:hover, .shop-card-btn:hover {
+  background: var(--orange-grad);
+  filter: brightness(1.08);
+  box-shadow: 0 20px 44px rgba(255, 90, 0, 0.5), 0 0 28px rgba(255, 122, 26, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* Kaarten en panelen */
+.sol-card, .sol-route, .shop-card, .apply-stat, .apply-req-item, .apply-left-card, .apply-process, .apply-requirements {
+  transition: transform 0.4s var(--ease-out), box-shadow 0.4s ease, border-color 0.4s ease;
+}
+.sol-card:hover, .shop-card:hover, .sol-route:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 122, 26, 0.7);
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.55), 0 0 36px rgba(255, 106, 0, 0.28);
+}
+.apply-stat:hover, .apply-req-item:hover { transform: translateY(-3px); }
+.sol-card-img, .shop-card-img img { transition: transform 0.6s var(--ease-out); }
+.sol-card:hover .sol-card-img, .shop-card:hover .shop-card-img img { transform: scale(1.07); }
+
+/* Koppen krijgen een warme gloed */
+.section-header h2, .sol-hero-content h1, .sol-process-header h2 {
+  text-shadow: 0 4px 30px rgba(255, 106, 0, 0.25);
+}
+
+/* Footer */
+.footer { position: relative; }
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff6a00 30%, #ffa24d 50%, #ff6a00 70%, transparent);
+  box-shadow: 0 0 24px rgba(255, 106, 0, 0.6);
+}
+.footer-col a { transition: color 0.2s ease, padding-left 0.25s var(--ease-out); }
+.footer-col a:hover { color: #ff9a3c; padding-left: 6px; }
+.footer-socials a { transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease; }
+.footer-socials a:hover { transform: translateY(-4px) scale(1.08); box-shadow: 0 10px 26px rgba(255, 106, 0, 0.45); }
+
+/* Scroll-animaties */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.9s ease, transform 0.9s var(--ease-out);
+  transition-delay: var(--d, 0s);
+}
+.reveal.in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .hero h1, .hero-subtitle, .hero-actions, .hero-online { animation: none; }
+  .hero-embers { display: none; }
 }
