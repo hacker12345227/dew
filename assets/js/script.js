@@ -72,7 +72,6 @@ const navbarMarkup = `
         <a class="${isHomePage ? "active" : ""}" href="${homeAnchor}">Home</a>
         <a class="${isRulesPage ? "active" : ""}" href="${regelsHref}">APV</a>
         <a class="${isShopPage ? "active" : ""}" href="${basePath}pakketten">Auto's &amp; Pakketten</a>
-        <a href="${donateAnchor}" target="_blank">Doneren</a>
         <a class="${isSolliciterenPage ? "active" : ""}" href="${applyAnchor}">Solliciteren</a>
         <a href="https://www.discord.gg/titanroleplay" target="_blank">Discord</a>
       </div>
