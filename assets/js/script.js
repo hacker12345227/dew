@@ -214,3 +214,91 @@ document.addEventListener("DOMContentLoaded", () => {
   update();
   setInterval(update, 60000);
 })();
+
+
+// ── Titan oranje upgrade: header-effect, scroll-animaties en vonken ──
+(function () {
+  const header = document.querySelector(".site-header");
+  if (header) {
+    const onScroll = () => header.classList.toggle("scrolled", window.scrollY > 40);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Scroll-reveal
+  const targets = document.querySelectorAll(
+    ".apply-left-card, .apply-process, .apply-requirements, .sol-card, .sol-route, .sol-req-bar, .sol-process-header, .shop-section, .footer-col, .footer-brand, .rules-section-header"
+  );
+  if (!reduce && "IntersectionObserver" in window) {
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((en) => {
+          if (en.isIntersecting) {
+            en.target.classList.add("in");
+            io.unobserve(en.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+    );
+    targets.forEach((el, i) => {
+      el.classList.add("reveal");
+      el.style.setProperty("--d", (i % 4) * 0.08 + "s");
+      io.observe(el);
+    });
+  }
+
+  // Vonken in de hero
+  const hero = document.querySelector(".hero");
+  if (!hero || reduce) return;
+  const canvas = document.createElement("canvas");
+  canvas.className = "hero-embers";
+  const overlay = hero.querySelector(".hero-overlay");
+  if (overlay && overlay.nextSibling) hero.insertBefore(canvas, overlay.nextSibling);
+  else hero.appendChild(canvas);
+  const ctx = canvas.getContext("2d");
+  let w = 0, h = 0, running = true;
+  const dots = [];
+  const resize = () => {
+    const r = hero.getBoundingClientRect();
+    w = canvas.width = r.width;
+    h = canvas.height = r.height;
+  };
+  resize();
+  window.addEventListener("resize", resize);
+  const make = (initial) => ({
+    x: Math.random() * w,
+    y: initial ? Math.random() * h : h + 10,
+    r: Math.random() * 2 + 0.6,
+    vy: Math.random() * 0.7 + 0.25,
+    vx: (Math.random() - 0.5) * 0.35,
+    a: Math.random() * 0.6 + 0.25,
+    p: Math.random() * Math.PI * 2,
+  });
+  const count = Math.min(70, Math.floor((window.innerWidth * window.innerHeight) / 20000));
+  for (let i = 0; i < count; i++) dots.push(make(true));
+  const loop = () => {
+    if (running) {
+      ctx.clearRect(0, 0, w, h);
+      dots.forEach((d, i) => {
+        d.y -= d.vy;
+        d.p += 0.03;
+        d.x += d.vx + Math.sin(d.p) * 0.25;
+        if (d.y < -10) dots[i] = make(false);
+        const g = ctx.createRadialGradient(d.x, d.y, 0, d.x, d.y, d.r * 5);
+        g.addColorStop(0, "rgba(255,170,80," + d.a + ")");
+        g.addColorStop(0.4, "rgba(255,100,10," + d.a * 0.45 + ")");
+        g.addColorStop(1, "rgba(255,80,0,0)");
+        ctx.fillStyle = g;
+        ctx.beginPath();
+        ctx.arc(d.x, d.y, d.r * 5, 0, Math.PI * 2);
+        ctx.fill();
+      });
+    }
+    requestAnimationFrame(loop);
+  };
+  document.addEventListener("visibilitychange", () => (running = !document.hidden));
+  loop();
+})();
